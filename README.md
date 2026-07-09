@@ -11,3 +11,4 @@ Pages:
 - `/impressum/` Impressum
 - `/datenschutz/` Datenschutz
 - `/en/privacy/` English privacy summary
+- `/therapy/` Online-Praxis für Psychotherapie
