@@ -9,26 +9,22 @@
   <style>
 :root{--bg:#fafafa;--card:#fff;--text:#333;--muted:#666;--line:#e8e2da;--blue:#007bff;--blue2:#0056b3;--green:#28a745;--shadow:0 4px 20px rgba(0,0,0,.10)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;max-width:800px;margin:0 auto;padding:2rem;line-height:1.6;color:var(--text);background:var(--bg)}
-header,section,footer{background:var(--card);padding:2rem;border-radius:12px;box-shadow:var(--shadow);margin:0 0 1.5rem}header{text-align:center;padding:3rem 2rem}.avatar{width:150px;height:150px;border-radius:50%;margin:0 auto 1rem;display:grid;place-items:center;background:linear-gradient(135deg,#eef5ff,#fff4e8);border:1px solid var(--line);font-size:3rem;color:#444}h1{font-size:2.5rem;margin:0 0 .5rem;color:#1a1a1a;line-height:1.1}h2{font-size:1.45rem;margin:0 0 1rem;color:#1a1a1a}h3{font-size:1.08rem;margin:1.4rem 0 .4rem}.subtitle{font-size:1.2rem;color:var(--muted);margin:0 0 1.5rem}.desc{font-size:1.08rem;max-width:640px;margin:0 auto 1rem}.links{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.8rem}.links a,.button{background:var(--blue);color:white;padding:.8rem 1.5rem;text-decoration:none;border-radius:6px;transition:background .2s}.links a:hover,.button:hover{background:var(--blue2)}a{color:var(--blue2)}.meta{color:var(--muted);font-size:.95rem}.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.notice{border-left:4px solid var(--green);padding:1rem;background:#f7fff9;border-radius:8px}.legal p,.legal li{font-size:.98rem}.legal ul{padding-left:1.2rem}.topnav{display:flex;justify-content:space-between;gap:1rem;align-items:center;margin-bottom:1rem}.lang{font-size:.95rem}footer{text-align:center;color:var(--muted);font-size:.95rem}@media(max-width:600px){body{padding:1rem}header{padding:2rem 1rem}.two{grid-template-columns:1fr}h1{font-size:2rem}}
+header,section,footer{background:var(--card);padding:2rem;border-radius:12px;box-shadow:var(--shadow);margin:0 0 1.5rem}header{text-align:center;padding:3rem 2rem}.portrait{width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:center;margin:0 auto 1rem;display:block;border:1px solid var(--line);box-shadow:0 3px 14px rgba(0,0,0,.12);background:#eef5ff}h1{font-size:2.5rem;margin:0 0 .5rem;color:#1a1a1a;line-height:1.1}h2{font-size:1.45rem;margin:0 0 1rem;color:#1a1a1a}h3{font-size:1.08rem;margin:1.4rem 0 .4rem}.subtitle{font-size:1.2rem;color:var(--muted);margin:0 0 1.5rem}.desc{font-size:1.08rem;max-width:640px;margin:0 auto 1rem}.links{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.8rem}.links a,.button{background:var(--blue);color:white;padding:.8rem 1.5rem;text-decoration:none;border-radius:6px;transition:background .2s;display:inline-block}.links a:hover,.button:hover{background:var(--blue2)}a{color:var(--blue2)}.meta{color:var(--muted);font-size:.95rem}.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.notice{border-left:4px solid var(--green);padding:1rem;background:#f7fff9;border-radius:8px}.legal p,.legal li{font-size:.98rem}.legal ul{padding-left:1.2rem}.topnav{display:flex;justify-content:space-between;gap:1rem;align-items:center;margin-bottom:1rem}.lang{font-size:.95rem}.cta-row{text-align:center;margin-top:1.4rem}footer{text-align:center;color:var(--muted);font-size:.95rem}@media(max-width:600px){body{padding:1rem}header{padding:2rem 1rem}.two{grid-template-columns:1fr}h1{font-size:2rem}}
 </style>
 </head>
 <body>
 
 <header>
   <div class="topnav"><span></span><span class="lang"><a href="../">Deutsch</a> · <strong>English</strong> · <a href="../nl/">Nederlands</a> · <a href="../fr/">Français</a></span></div>
-  <div class="avatar" aria-hidden="true">HJ</div>
-  <h1>Halim Jarrar</h1>
+  <img class="portrait" src="../images/halim-jarrar.jpg" alt="Halim Jarrar">
+  <h2>Halim Jarrar</h2>
   <p class="subtitle">Psychological psychotherapist · online individual and group sessions · digital mental health applications</p>
-  <p class="desc">I am a psychotherapist and offer individual and group psychotherapeutic sessions online. Alongside my therapeutic work, I develop digital applications in the field of mental health.</p>
-  <div class="links">
-    <a href="mailto:psychotherapie@halim-jarrar.de">Email</a>
-    <a href="../impressum/">Legal notice</a>
-    <a href="privacy/">Privacy</a>
-  </div>
+  <p>I am a psychotherapist and offer individual and group psychotherapeutic sessions online. Alongside my therapeutic work, I develop digital applications in the field of mental health.</p>
 </header>
 <section>
   <h2>Online practice</h2>
   <p>My psychotherapeutic work takes place online through privacy-conscious video sessions. Before treatment begins, I check whether online treatment is professionally appropriate for the individual case.</p>
+  <div class="cta-row"><a class="button" href="therapy/">Learn more</a></div>
 </section>
 <section>
   <h2>Apps & digital projects</h2>

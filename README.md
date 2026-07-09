@@ -12,3 +12,6 @@ Pages:
 - `/datenschutz/` Datenschutz
 - `/en/privacy/` English privacy summary
 - `/therapy/` Online-Praxis für Psychotherapie
+- `/en/therapy/` English therapy page
+- `/nl/therapy/` Dutch therapy page
+- `/fr/therapy/` French therapy page
